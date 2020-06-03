@@ -12,10 +12,11 @@ import javax.swing.JOptionPane;
  * @author David
  */
 public class main{
-public static void main(String[] args){
-    String nom;
-    nom  = JOptionPane.showInputDialog("Ingrese su Nombre");
+    private String nom;
 
+public static void main(String[] args){
+    
+    nom  = JOptionPane.showInputDialog("Ingrese su Nombre");
     JOptionPane.showMessageDialog (
 
 null,"Bienvenido "+nom);
